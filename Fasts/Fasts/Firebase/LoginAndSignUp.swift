@@ -30,7 +30,7 @@ class LoginAndSignUp {
         }
     }
     
-    private func showDashboard() {
+    func showDashboard() {
         guard let vc = DashboardViewController() as? DashboardViewController else { return }
         self.viewController?.present(vc, animated: true, completion: nil)
     }

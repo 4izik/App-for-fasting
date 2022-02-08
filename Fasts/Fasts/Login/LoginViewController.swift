@@ -20,6 +20,12 @@ class LoginViewController: UIViewController {
         
         authorizeHealthKit()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if Auth.auth().currentUser != nil {
+            LoginAndSignUp(self).showDashboard()
+        }
+    }
 
     // MARK: - Add custom view
 
