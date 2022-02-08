@@ -20,6 +20,17 @@
 		5D3B2D6227AA865900BE16A8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B2D6127AA865900BE16A8 /* SignUpViewController.swift */; };
 		5D3B2D6427AA867700BE16A8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B2D6327AA867700BE16A8 /* SignUpView.swift */; };
 		5D3B2D6727AA880400BE16A8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B2D6627AA880400BE16A8 /* UIButton+Extension.swift */; };
+		5D3B2D6B27AEDD0800BE16A8 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B2D6A27AEDD0800BE16A8 /* SocialMediaButton.swift */; };
+		5D3B2D6D27AEF07600BE16A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B2D6C27AEF07600BE16A8 /* GoogleService-Info.plist */; };
+		5D6DE0B627AEFD800074BB30 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DE0B527AEFD800074BB30 /* String+Extension.swift */; };
+		5D6DE0B927AF02C70074BB30 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DE0B827AF02C70074BB30 /* DashboardViewController.swift */; };
+		5D6DE0BD27B037160074BB30 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DE0BC27B037160074BB30 /* DashboardView.swift */; };
+		5D97808627B051CC00242853 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D97808527B051CC00242853 /* HealthKit.framework */; };
+		5D97808827B0537E00242853 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97808727B0537E00242853 /* HealthKitSetupAssistant.swift */; };
+		5D97808A27B1118700242853 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97808927B1118700242853 /* ProfileDataStore.swift */; };
+		5D97808E27B131EA00242853 /* LoginAndSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97808D27B131EA00242853 /* LoginAndSignUp.swift */; };
+		5D97809327B1504A00242853 /* AddWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97809227B1504A00242853 /* AddWaterViewController.swift */; };
+		5D97809527B1506200242853 /* AddWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97809427B1506200242853 /* AddWaterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,18 @@
 		5D3B2D6127AA865900BE16A8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5D3B2D6327AA867700BE16A8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		5D3B2D6627AA880400BE16A8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		5D3B2D6A27AEDD0800BE16A8 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
+		5D3B2D6C27AEF07600BE16A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D6DE0B527AEFD800074BB30 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5D6DE0B827AF02C70074BB30 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5D6DE0BC27B037160074BB30 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5D97808427B051CC00242853 /* Fasts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fasts.entitlements; sourceTree = "<group>"; };
+		5D97808527B051CC00242853 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5D97808727B0537E00242853 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		5D97808927B1118700242853 /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		5D97808D27B131EA00242853 /* LoginAndSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUp.swift; sourceTree = "<group>"; };
+		5D97809227B1504A00242853 /* AddWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterViewController.swift; sourceTree = "<group>"; };
+		5D97809427B1506200242853 /* AddWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterView.swift; sourceTree = "<group>"; };
 		FFBD04402FA02E7610CF9672 /* Pods_Fasts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fasts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B9B55E90418EFCD5C6E0248 /* Pods_Fasts.framework in Frameworks */,
+				5D97808627B051CC00242853 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +81,7 @@
 		3BC3D9FAD94EB00F22A612A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D97808527B051CC00242853 /* HealthKit.framework */,
 				FFBD04402FA02E7610CF9672 /* Pods_Fasts.framework */,
 			);
 			name = Frameworks;
@@ -75,15 +100,21 @@
 		5D3B2D3927AA5D1900BE16A8 /* Fasts */ = {
 			isa = PBXGroup;
 			children = (
+				5D97808427B051CC00242853 /* Fasts.entitlements */,
 				5D3B2D6527AA87E300BE16A8 /* Extensions */,
-				5D3B2D6027AA864600BE16A8 /* SignUp */,
 				5D3B2D5D27AA7E9C00BE16A8 /* CustomView */,
 				5D3B2D5A27AA775200BE16A8 /* Constants */,
+				5D3B2D6027AA864600BE16A8 /* SignUp */,
 				5D3B2D5127AA5E4100BE16A8 /* Login */,
+				5D97808C27B131CC00242853 /* Firebase */,
+				5D97808B27B1119B00242853 /* HealthKit */,
+				5D6DE0B727AF029E0074BB30 /* Dashboard */,
+				5D97809627B1507400242853 /* AddWater */,
 				5D3B2D3A27AA5D1900BE16A8 /* AppDelegate.swift */,
 				5D3B2D3C27AA5D1900BE16A8 /* SceneDelegate.swift */,
 				5D3B2D4327AA5D1B00BE16A8 /* Assets.xcassets */,
 				5D3B2D4527AA5D1B00BE16A8 /* LaunchScreen.storyboard */,
+				5D3B2D6C27AEF07600BE16A8 /* GoogleService-Info.plist */,
 				5D3B2D4827AA5D1B00BE16A8 /* Info.plist */,
 			);
 			path = Fasts;
@@ -111,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				5D3B2D5E27AA7EB700BE16A8 /* LoginButton.swift */,
+				5D3B2D6A27AEDD0800BE16A8 /* SocialMediaButton.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -128,8 +160,44 @@
 			isa = PBXGroup;
 			children = (
 				5D3B2D6627AA880400BE16A8 /* UIButton+Extension.swift */,
+				5D6DE0B527AEFD800074BB30 /* String+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D6DE0B727AF029E0074BB30 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D6DE0B827AF02C70074BB30 /* DashboardViewController.swift */,
+				5D6DE0BC27B037160074BB30 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		5D97808B27B1119B00242853 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				5D97808727B0537E00242853 /* HealthKitSetupAssistant.swift */,
+				5D97808927B1118700242853 /* ProfileDataStore.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		5D97808C27B131CC00242853 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5D97808D27B131EA00242853 /* LoginAndSignUp.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5D97809627B1507400242853 /* AddWater */ = {
+			isa = PBXGroup;
+			children = (
+				5D97809427B1506200242853 /* AddWaterView.swift */,
+				5D97809227B1504A00242853 /* AddWaterViewController.swift */,
+			);
+			path = AddWater;
 			sourceTree = "<group>";
 		};
 		FCF10912BFFAE9A46D5F6201 /* Pods */ = {
@@ -153,6 +221,7 @@
 				5D3B2D3327AA5D1900BE16A8 /* Sources */,
 				5D3B2D3427AA5D1900BE16A8 /* Frameworks */,
 				5D3B2D3527AA5D1900BE16A8 /* Resources */,
+				3F3C713327CB8BC057D7B5CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3B2D4727AA5D1B00BE16A8 /* LaunchScreen.storyboard in Resources */,
+				5D3B2D6D27AEF07600BE16A8 /* GoogleService-Info.plist in Resources */,
 				5D3B2D4427AA5D1B00BE16A8 /* Assets.xcassets in Resources */,
 				5D3B2D4227AA5D1900BE16A8 /* Main.storyboard in Resources */,
 			);
@@ -210,9 +280,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D3B2D5927AA729C00BE16A8 /* Lint */ = {
+		3F3C713327CB8BC057D7B5CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fasts/Pods-Fasts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fasts/Pods-Fasts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fasts/Pods-Fasts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3B2D5927AA729C00BE16A8 /* Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -224,9 +312,10 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			showEnvVarsInLog = 0;
 		};
 		7D9599FE4EA31FDF760856D0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -258,14 +347,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3B2D6227AA865900BE16A8 /* SignUpViewController.swift in Sources */,
+				5D97808E27B131EA00242853 /* LoginAndSignUp.swift in Sources */,
+				5D97808A27B1118700242853 /* ProfileDataStore.swift in Sources */,
+				5D6DE0B627AEFD800074BB30 /* String+Extension.swift in Sources */,
 				5D3B2D5C27AA778400BE16A8 /* Colors.swift in Sources */,
 				5D3B2D6727AA880400BE16A8 /* UIButton+Extension.swift in Sources */,
 				5D3B2D5F27AA7EB700BE16A8 /* LoginButton.swift in Sources */,
+				5D97808827B0537E00242853 /* HealthKitSetupAssistant.swift in Sources */,
+				5D97809527B1506200242853 /* AddWaterView.swift in Sources */,
+				5D97809327B1504A00242853 /* AddWaterViewController.swift in Sources */,
 				5D3B2D5327AA5EC500BE16A8 /* LoginView.swift in Sources */,
 				5D3B2D3F27AA5D1900BE16A8 /* LoginViewController.swift in Sources */,
+				5D6DE0B927AF02C70074BB30 /* DashboardViewController.swift in Sources */,
 				5D3B2D3B27AA5D1900BE16A8 /* AppDelegate.swift in Sources */,
 				5D3B2D6427AA867700BE16A8 /* SignUpView.swift in Sources */,
 				5D3B2D3D27AA5D1900BE16A8 /* SceneDelegate.swift in Sources */,
+				5D6DE0BD27B037160074BB30 /* DashboardView.swift in Sources */,
+				5D3B2D6B27AEDD0800BE16A8 /* SocialMediaButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +511,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fasts/Fasts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TRVL9SXHFC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fasts/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your step for app fasting";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your step for app fasting";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -443,11 +544,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fasts/Fasts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TRVL9SXHFC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fasts/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your step for app fasting";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your step for app fasting";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
